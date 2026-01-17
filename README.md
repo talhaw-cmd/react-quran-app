@@ -42,8 +42,8 @@ https://alquran.cloud/api
 src/
 - Quran.jsx
 - Quran.css
-- App.js
-- index.js
+- App.jsx
+- index.jsx
 
 ---
 

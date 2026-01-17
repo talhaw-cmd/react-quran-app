@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.hadith-wrapper {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+.card {
+  background: #eaeaea;
+  color: #1f2933;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%; /* Force width */
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Labels */
+.label {
+  display: block;
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+/* Titles */
+.card h2 {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+/* Text Elements */
+.arabic {
+  font-size: 28px;
+  text-align: right; /* Hadith app style */
+  color: #1f2933;
+  direction: rtl;
+  margin: 15px 0;
+}
+
+.urdu {
+  font-size: 20px;
+  text-align: right; /* Hadith app style */
+  color: #374151;
+  direction: rtl;
+  margin-top: 10px;
+}
+
+/* Row Layout */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.space div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  background: #374151;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4b5563;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* 📱 Mobile - Just for safety, though it's already 100% */
+@media (max-width: 480px) {
+  .arabic {
+    font-size: 22px;
+  }
+  .urdu {
+    font-size: 18px;
+  }
+  .space {
+    flex-direction: row; /* Mobile par bhi numbers ko line mein rakha hai */
+    justify-content: space-around;
+  }
+}

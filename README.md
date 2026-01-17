@@ -40,8 +40,8 @@ https://alquran.cloud/api
 ## 📁 Project Structure
 
 src/
-- QuranApp.jsx
-- QuranApp.css
+- Quran.jsx
+- Quran.css
 - App.js
 - index.js
 

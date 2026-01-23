@@ -1,67 +1,21 @@
-# 📖 Quran Random Ayah App
+# Quran Random Ayah Generator
 
-A minimalist Quran web application built with https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip that displays a random Ayah from the Holy Quran along with its Urdu translation, Surah details, and Juz (Para) number.
+A React component that fetches and displays a random Quranic Ayah with Arabic text and Urdu translation. Users can generate a new Ayah with a single button click. It also shows additional metadata like Surah name, Ayah number, Surah number, and Para (Juz) number.
 
 ---
 
-## ✨ Features
+## Features
 
-- Displays a random Ayah from the Quran
-- Arabic text with proper right alignment
-- Urdu translation (Jalandhri & Ahmed Ali)
-- Shows:
+- Display random Ayah from the Quran.
+- Arabic text of the Ayah.
+- Urdu translation from two different translators (Jalandhri & Ahmed Ali).
+- Displays metadata:
   - Surah Name
   - Ayah Number
   - Surah Number
-  - Juz (Para)
-- One-click Generate button
-- Fully responsive for all screen sizes
-- Clean and minimalist UI using pure CSS
-
----
-
-## 🛠️ Tech Stack
-
-- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
-- Axios
-- CSS (Vanilla)
-- AlQuran Cloud API
-
----
-
-## 🌐 API Used
-
-AlQuran Cloud API  
-https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
-
----
-
-
-## 📁 Project Structure
-
-src/
-- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
-- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
-- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
-- https://github.com/talhaw-cmd/react-quran-app/raw/refs/heads/main/src/assets/app-react-quran-inconversant.zip
-
----
-
-## 🎯 Purpose
-
-This project is built to practice:
-- API integration in React
-- React Hooks (useState, useEffect)
-- Clean and responsive UI design
-- Building a meaningful Islamic application
-
----
-
-## 🔮 Future Enhancements
-
-- Audio recitation
-- Bookmark Ayahs
-- Dark / Light mode
-- Ayah sharing feature
+  - Para (Juz) Number
+- Loading indicator while fetching the data.
+- Fully responsive and styled using CSS.
+- Simple, clean UI for easy reading.
 
 ---
